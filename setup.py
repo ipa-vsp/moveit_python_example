@@ -32,6 +32,7 @@ setup(
     entry_points={
         'console_scripts': [
             'motion_planning_api = moveit_python_examples.motion_planning_api:main',
+            'send_pose_goal = moveit_python_examples.send_pose_goal:main',
         ],
     },
 )
